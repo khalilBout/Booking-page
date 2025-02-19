@@ -22,7 +22,7 @@ export default {
         primary: "#731b22",
         primaryDark: "#87131d",
         lightOrange: "#b07155",
-        darkGray: "#1a1f25",
+        darkGray: "#000000",
         lightGray: "#272c35",
       },
       backgroundImage: {

@@ -45,6 +45,7 @@ export default function Index() {
 
   return (
     <motion.section
+    id="form"
       className=" p-12 text-white text-center"
       initial={{ opacity: 0, y: 50 }}
       whileInView={{ opacity: 1, y: 0 }}

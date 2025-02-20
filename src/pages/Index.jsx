@@ -25,13 +25,13 @@ const Index = () => {
       {/* Hero Section */}
       <section className="min-h-screen bg-hero-bg/40 bg-cover bg-center flex flex-col mdl:flex-row items-center">
         <motion.div
-          className="m-12 mdl:m-8 mt-36 w-full mdl:w-1/2 h-1/2 mdl:h-full flex flex-col justify-center items-center "
+          className="m-12 mdl:m-8 mt-36 w-full mdl:w-1/2 h-1/2 mdl:h-full flex flex-col justify-center items-center max-mdl:absolute max-mdl:top-0 max-mdl:-left-12 z-20 "
           initial="hidden"
           animate="visible"
           variants={fadeIn}
         >
           <motion.h1
-            className="text-4xl md:text-5xl mdl:text-6xl font-titleAr text-primary mb-4"
+            className="mx-2 text-3xl sml:text-4xl md:text-5xl mdl:text-6xl font-titleAr text-primary mb-4"
             variants={fadeIn}
           >
             قاعة اللؤلؤة الفاخرة
@@ -56,14 +56,14 @@ const Index = () => {
         </motion.div>
 
         <motion.div
-          className="w-full mdl:w-1/2 flex justify-center items-center"
+          className="w-full mdl:w-1/2 max-mdl:absolute max-mdl:top-0 max-mdl:left-0 mdl:flex justify-center items-center "
           initial={{ opacity: 0 }}
           animate={{ opacity: 1, transition: { duration: 1 } }}
         >
           <img
             src={sall}
             alt="صورة قاعة اللؤلؤة"
-            className="h-[100vh] w-auto hidden mdl:block"
+            className="h-[100vh] w-auto "
           />
         </motion.div>
       </section>
